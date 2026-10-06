@@ -8,6 +8,11 @@
   justify-content:space-between;
   align-items: center;
   padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 .head_menu ul{
   display: flex;
@@ -26,8 +31,7 @@
   text-transform: capitalize;
 }
 .hero_section{
-  padding-top: 70px;
-  margin-top: -50px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -69,4 +73,7 @@ span{
 }
 .content button:hover{
   background: #d6d6d6;
+}
+.banner_iamge img{
+  padding-top: 15px;
 }
