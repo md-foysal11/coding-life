@@ -21,3 +21,52 @@
   padding: 0px 25px;
   
 }
+.logo{
+  color: red;
+  text-transform: capitalize;
+}
+.hero_section{
+  padding-top: 70px;
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image:url(img/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+.content h1{
+  font-size: 64px;
+  font-weight: 600;
+  width: 400px;
+  text-transform: capitalize;
+  
+}
+.content P{
+  font-weight: 400;
+  font-size: 18px;
+  width: 309px;
+  padding: 30px 0px;
+}
+span{
+  color: #ef5e41;
+}
+.content button{
+  background: #e0e0e0;
+  border-radius: 12px;
+  box-sizing: 8px 8px 16px #bebebe,
+              -8px -8px 16px #ffff;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.content button:active{
+  box-shadow: inset 6px 6px 10px #bebebe,
+              inset -6px -6px 10px #ffff ;
+}
+.content button:hover{
+  background: #d6d6d6;
+}
