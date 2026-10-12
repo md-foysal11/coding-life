@@ -77,3 +77,26 @@ span{
 .banner_iamge img{
   padding-top: 15px;
 }
+/* ==card==*/
+.conterner{
+  display:grid;
+  place-items:center;
+  margin-inline: 1.5rem;
+  padding-block: 5rem;
+}
+.card_main{
+  display: grid;
+  row-gap: 3.5rem;
+}
+.card_article{
+  position: relative;
+}
+.card_image{
+  width: 328px;
+  border-radius: 1.5rem;
+}
+.card_data{
+  width: 280px;
+  background-color: #716f6f17;
+  padding: 1.5rem 2rem;
+}
