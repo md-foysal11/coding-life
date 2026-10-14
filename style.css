@@ -277,3 +277,42 @@ span{
     padding-inline: 2.5rem;
   }
 }
+.table_main{
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table, th ,td{
+  border: 1px solid tomato;
+  border-collapse: collapse;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  
+  
+} 
+table{
+  width: 90%;
+  
+  
+
+}
+td{
+  text-align: center;
+  background-color: aqua;
+  color: darkblue;
+  font-size: 20px;
+}
+th{
+  background-color: aquamarine;
+  color: black;
+  font-size: 23px;
+}
+th:hover{
+  background-color: rgb(181, 41, 153);
+  color: alicebluegit;
+}
+td:hover{
+  background-color: rgb(236, 9, 119);
+  color: azure;
+}
