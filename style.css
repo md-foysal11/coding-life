@@ -316,3 +316,21 @@ td:hover{
   background-color: rgb(236, 9, 119);
   color: azure;
 }
+.main_tab{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  height:450px;
+  overflow-y: scroll;
+}
+.gellary{
+  display: flex;
+  gap: 15px;
+}
+.image_gellary{
+  width: 300px;
+   border-radius: 14px;
+   height: 180px;
+   object-fit: cover;
+}
