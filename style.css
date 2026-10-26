@@ -334,3 +334,58 @@ td:hover{
    height: 180px;
    object-fit: cover;
 }
+p{
+  margin: auto;
+  width: 70%;
+  padding: 20px 0;
+  font-size: 20px;
+  color: rgb(1, 24, 27);
+}
+p::selection{
+  background-color: aquamarine;
+  color:rgb(248, 9, 69);
+}
+p::first-letter{
+  font-size: 50px;
+}
+p::first-line{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer_menu{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  height:300px;
+  padding-top: 50px;
+}
+.footer_menu h3{
+  color: rgb(0, 7, 0);
+  font-size: 25px;
+}
+.footer_logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer_logo ul{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  
+}
+.footer_logo ul li{
+  padding: 8px 25px;
+  text-transform: capitalize;
+  border: 1px solid #b8e907;
+  border-radius: 20px;
+  margin: 0px 15px;
+  color: black;
+}
+.footer_logo ul li:hover{
+  background-color: aquamarine;
+  color: rgb(0, 7, 7);
+
+}
