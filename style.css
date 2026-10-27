@@ -389,3 +389,54 @@ p::first-line{
   color: rgb(0, 7, 7);
 
 }
+.product_page{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px;
+  background-image: url(img/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product_page img{
+  width:150px;
+  border-radius: 10%;
+  object-fit: cover;
+  align-items: center;
+  display: block;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.items{
+  border: 1px solid rgb(137, 140, 137);
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 10px;
+  border-radius: 10%;
+
+}
+.item_price{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: capitalize;
+}
+.item_price h3{
+  font-size: 14px;
+  color: black;
+  padding: 0 10px;
+}
+.button_items{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+   padding: 0 10px;
+   font-size: 14px;
+   padding-top: 5px;
+   text-transform: capitalize;
+}
+.button_items button{
+  padding: 5px;
+  background: darkcyan;
+  color: aliceblue;
+  text-transform: capitalize;
+}
